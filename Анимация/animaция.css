@@ -1,0 +1,17 @@
+.div{
+    background-color: darkseagreen;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    margin: 0 2% 0 47%;
+    text-align: center;
+
+}
+@keyframes example {
+0%{background-color: red;}
+25%{background-color: yellow;}
+50%{background-color: blue;}
+75%{background-color: orange;}
+100%{background-color: green;}
+}
+
